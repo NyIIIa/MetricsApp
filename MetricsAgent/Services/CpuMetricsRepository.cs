@@ -26,6 +26,6 @@ public class CpuMetricsRepository : ICpuMetricsRepository
 
     public async Task<IEnumerable<CpuMetric>> GetMetricsByPeriodAsync(long from, long to)
     {
-        return await _dbContext.CpuMetrics.FromSql($"select * from CpuMetric where CurrentDate >= {from} and CurrentDate <= {to}").ToListAsync();
+        return await _dbContext.CpuMetrics.FromSql($"select * from CpuMetrics where CurrentDate >= {from} and CurrentDate <= {to}").ToListAsync();
     }
 }
