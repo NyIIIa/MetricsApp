@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsAgent", "MetricsAgent\MetricsAgent.csproj", "{A59BEAD0-655C-4457-9AE5-952D7553988C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsManager", "MetricsManager\MetricsManager.csproj", "{1F73420C-0397-44FE-9265-71541D3B372C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsTelegramBot", "MetricsTelegramBot\MetricsTelegramBot.csproj", "{3CF573E1-A5F2-40A3-8F21-7FF5837A2535}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A59BEAD0-655C-4457-9AE5-952D7553988C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59BEAD0-655C-4457-9AE5-952D7553988C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59BEAD0-655C-4457-9AE5-952D7553988C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59BEAD0-655C-4457-9AE5-952D7553988C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F73420C-0397-44FE-9265-71541D3B372C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F73420C-0397-44FE-9265-71541D3B372C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F73420C-0397-44FE-9265-71541D3B372C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F73420C-0397-44FE-9265-71541D3B372C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF573E1-A5F2-40A3-8F21-7FF5837A2535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF573E1-A5F2-40A3-8F21-7FF5837A2535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF573E1-A5F2-40A3-8F21-7FF5837A2535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF573E1-A5F2-40A3-8F21-7FF5837A2535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
